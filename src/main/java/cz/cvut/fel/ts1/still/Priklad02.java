@@ -26,6 +26,7 @@ public class Priklad02 {
             Select selectDestination = new Select(driver.findElement(By.id("destination")));
             selectDestination.selectByVisibleText("London");
 
+
             driver.findElement(By.id("student")).click();
             driver.findElement(By.id("bank_transfer")).click();
 
