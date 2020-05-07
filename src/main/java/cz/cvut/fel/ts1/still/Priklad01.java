@@ -15,10 +15,9 @@ public class Priklad01 {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "/home/krystof/Projects/seleniumtest01/chromedriver");
 
-//        WebDriver driver = new FirefoxDriver();
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new FirefoxDriver();
         try {
-            driver.get("http://35.246.223.13/");
+            driver.get("http://35.198.153.63/");
             WebElement e = driver.findElement(By.cssSelector("body > form > div > h1"));
             System.out.println(e.getAttribute("textContent"));
         } finally {

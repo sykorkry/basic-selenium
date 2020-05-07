@@ -22,7 +22,7 @@ public class Priklad03 {
 
     @Test
     public void test01() {
-        driver.get("http://35.246.223.13/");
+        driver.get("http://35.198.153.63/");
         driver.findElement(By.id("firstName")).sendKeys("Honza");
         driver.findElement(By.id("lastName")).sendKeys("Vocásek");
         driver.findElement(By.id("email")).sendKeys("honzavocaek@gmail.com");
